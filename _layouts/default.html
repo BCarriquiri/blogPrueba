@@ -1,27 +1,23 @@
 <!DOCTYPE html>
-<html class="no-js">
-  <head>
+<html lang="en">
 
-    {% include head.html %}
+  {% include head.html %}
 
-  </head>
   <body>
-
 
     {% include header.html %}
 
-
-    {{ content }}
-
-
-
-
-
-
-
-
+    <section class="main-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
 
     {% include footer.html %}
 
-    </body>
+
+  </body>
+
+    {% include scripts.html %}
+
 </html>
